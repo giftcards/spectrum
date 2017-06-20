@@ -463,6 +463,7 @@
                     set($(e.target).closest(".sp-thumb-el").data("color"));
                     move();
                     updateOriginalInput(true);
+                    colorOnShow = $(e.target).closest(".sp-thumb-el").data("color");
                     if (opts.hideAfterPaletteSelect) {
                       hide();
                     }
